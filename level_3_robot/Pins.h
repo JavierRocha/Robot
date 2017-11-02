@@ -3,10 +3,10 @@
 
 #define MALLET_PIN        10
 
-#define MOTOR_LEFT_CH0    9
-#define MOTOR_LEFT_CH1    8
-#define MOTOR_RIGHT_CH0   12
-#define MOTOR_RIGHT_CH1   11
+#define MOTOR_LEFT_CH0    11
+#define MOTOR_LEFT_CH1    12
+#define MOTOR_RIGHT_CH0   8
+#define MOTOR_RIGHT_CH1   9
 //#define MOTOR_RIGHT_CH0   10
 //#define MOTOR_RIGHT_CH1   9
 

@@ -26,10 +26,10 @@ DriveMotors::DriveMotors(const byte lm0, const byte lm1, const byte rm0, const b
 }
 
 void DriveMotors::driveForward(const byte speed) {
-  analogWrite(leftMotorCh0Pin, speed);
+  analogWrite(leftMotorCh0Pin, 255);
   analogWrite(leftMotorCh1Pin, 0);
 
-  analogWrite(rightMotorCh0Pin, speed);
+  analogWrite(rightMotorCh0Pin, 253);
   analogWrite(rightMotorCh1Pin, 0);
 
   if (DEBUG) {
